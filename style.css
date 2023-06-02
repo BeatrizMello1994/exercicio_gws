@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "vw bold";
+    src: url(/assets/fonts/VWHeadBold.otf);
+}
+
+@font-face {
+    font-family: "vw regular";
+    src: url(/assets/fonts/VWHeadRegular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background: #efefef;
+
+} */
+
+.grid {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.header {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39px;
+    margin-bottom: 70px;
+}
+
+.menu {
+    height: 75px;
+    width: 146px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bom_dia_div {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 13px;
+}
+
+
+.saudaçao {
+    width: 481px;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    padding-left: 52px;
+}
+
+.saudaçao span {
+    font-family: "vw bold";
+    text-transform: uppercase;
+    font-size: 24px;
+    color: black;
+    margin-left: 14px;
+    letter-spacing: -0.05em;
+}
+
+.squads {
+    width: 909px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    color: black;
+    border-radius: 17px;
+    border: 1px solid black;
+    padding-left: 36px;
+}
+
+.squads span {
+    font-family: "vw bold";
+    text-transform: uppercase;
+    font-size: 24px;
+    color: black;
+    letter-spacing: -0.05em;
+}
+
+header button {
+    width: 328px;
+    height: 75px;
+    background: linear-gradient(90deg, #041861 -15.24%, #4BABE8 50%);
+    border: none;
+    border-radius: 17px;
+    font-family: "vw bold";
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+
+}
+.infotec{
+    width: 481px;
+    height: 75px;
+    border: 1px solid black;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    padding-left: 52px;
+}
+
